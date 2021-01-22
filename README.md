@@ -1,7 +1,11 @@
 # prototypes
+NOTE: timer3 file is latest version ****
+
 The timer file is in popout form
 The timer2 file is in modal form
-Both files' functionality is otherwise the same and meant to
+The timer3 file is round button/modal form with improved table
+
+Files' functionality is otherwise the same and meant to
 - assume it has a list of data platforms with corresponding Date objects specifying last data pull (these are currently initialized as new date objects at timer initialization for simulation/testing)
 -count up from the time of last timer component load/initialization which is assumed to be the last time the data was pulled from platforms
 - turn red to indicate error when the date object from any platform is more than a minute off of the timer load date
