@@ -1,10 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-// import 'react-native';
 import './index.css';
-
-import Timer from './components/Timer/Timer.tsx';
-import Timer2 from './components/Timer2';
 import Timer3 from './components/Timer3';
 import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -12,9 +8,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Timer />
-    <Timer2 />
-    {/* <Timer3 /> */}
+    <Timer3 />
     
   </React.StrictMode>, 
   document.getElementById('root')
