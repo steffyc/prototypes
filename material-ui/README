@@ -8,7 +8,7 @@ Files needed for testing
 - index.js
 
 Inputs
-- inputs must be compatible with interface 'DatabaseSet' ie {name: string, time: Date, connectionStatus: boolean}
+- inputs must be an array of objects compatible with interface 'DatabaseSet' ie {name: string, time: Date, connectionStatus: boolean}
 - 3 sample values are currently defined on index.js, connection status may be altered trigger certain behaviors
 
 Expected Behavior
