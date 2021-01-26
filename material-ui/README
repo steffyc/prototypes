@@ -7,10 +7,16 @@ Files needed for testing
 - TimerModal.tsx
 - index.js
 
-Sample inputs are submitted on file index.js
+Inputs
 - inputs must be compatible with interface 'DatabaseSet' ie {name: string, time: Date, connectionStatus: boolean}
 - 3 sample values are currently defined on index.js, connection status may be altered trigger certain behaviors
 
 Expected Behavior
 - index.js instantiates a Timer3 component, DatabaseSet structured information as props input
 - Timer3 instantites a TimerModal component
+- Count up from the time of last timer component load/initialization which is assumed to be the last time the data was pulled from platforms
+  -Update in 1 second intervals
+- Timer outline/text turns red to indicate error when connection status to any input database returns false
+   -Green otherwise
+- TimerModal text for inidividual input database turns red to indicate error when connection status to that input database returns false
+  - Text black otherwise
