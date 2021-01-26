@@ -71,7 +71,7 @@ function Timer3(dataSources:any) {
     };
 
     return (
-        <Box bgcolor='#f5f2f7'>
+        <div>
             <RoundButton color={chooseColor()} onClick={()=>setShow(true)}>
                 {time}
             </RoundButton>
@@ -80,7 +80,7 @@ function Timer3(dataSources:any) {
                 onClose={handleClose} 
                 dataSources={dataSources.props}
             />
-        </Box>
+        </div>
     );
 };
 
