@@ -1,0 +1,16 @@
+Changes from prior versions
+- Files use Material-UI instead of Bootstrap
+- Timer modal is pulled out as separate component
+
+Files needed for testing
+- Timer3.tsx
+- TimerModal.tsx
+- index.js
+
+Sample inputs are submitted on file index.js
+- inputs must be compatible with interface 'DatabaseSet' ie {name: string, time: Date, connectionStatus: boolean}
+- 3 sample values are currently defined on index.js, connection status may be altered trigger certain behaviors
+
+Expected Behavior
+- index.js instantiates a Timer3 component, DatabaseSet structured information as props input
+- Timer3 instantites a TimerModal component
